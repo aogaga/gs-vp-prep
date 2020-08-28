@@ -1,0 +1,171 @@
+
+JS
++++++++++++++++++++++++++++++++++++
+ This round started with a lot of resume based questions. Why do we use AJAX, jQuery, RequireJS? What are their uses and why do we need them? What is the need for modular loading?
+
+
+The person was from the Risk Management team and testing concepts were discussed in this interview.
+JDBC 
+++++++++++++++++++++++++++
+Java JDBC, Socket Programming
+
+
+
+JERSEY  & REST
+++++++++++++++++++++++++++++++++++++++++++++++
+Explain RESTful web services. Jersey syntax
+Why are you using SOAP why not Restful. Why are you using SAX why not DOM
+Then some discussion on it particularly involving REST services. Then they made me write an HTTP GET method for a situation in an efficient way.
+
+
+
+STRING 
+++++++++++++++++++++++++++++++++++++
+What is the difference between string, string buffer and string builder
+
+MULTITHREADING
+++++++++++++++++++++++++++++++++++++++++++++
+What is a race condition?
+Questions on Java concepts and multithreading.
+print series 010203040506.. using multi-threading 1st thread will print only 0 2nd thread will print only even numbers and 3rd thread print only odd numbers.
+Synchronize block vs Synchronize method
+Questions on Java concepts and multithreading.
+
+JVM  , JRE & JDK
+++++++++++++++++++++++
+Explain JVM architecture.
+How does garbage collector work in Java?
+. JVM internal architecture.
+What is JDK, JRE, JVM? Then some more questions on the answers I gave.
+
+
+COLLECTIONS & GENERICS
+++++++++++++++++++++++++++++++++++++++++++
+How HashMaps work in Java?
+Java generics syntax.
+CocurrentHashmap vs HashTable vs SynchronizedMap
+how many collections you have used in Java,
+how does Hashmap works, 
+what is a contract between equals and hashcode?
+HashMap internal implementation.
+Equals and Hashcode concept.
+Set vs List
+ArrayList vs LinkedList
+Started with linked list, circular LL, DLL, 
+HashMap internal implementation.
+Equals and Hashcode concept.
+Set vs List
+ArrayList vs LinkedList
+How a hashmap is implemented internally in JAVA. Then its most famous contract question as well.
+Started with linked list, circular LL, DLL,
+Differences between Arrays and Linked Lists. In which situation, you would choose one over the other?
+Differences between Arrays and Linked Lists. In which situation, you would choose one over the other?
+
+OOP & java 
+++++++++++++++++++++++++++++++
+
+What is an abstract class? Can a class be abstract without abstract methods? Difference between an interface and abstract class.
+Why Java doesn’t support multiple inheritances?
+Will static methods be inherited? Can they be overridden?
+OOPs concepts with real time examples
+OOPs concepts of Java,
+what is runtime polymorphism,
+overloading/overriding
+What is the difference between string, string buffer and string builder,
+what does final keyword do, 
+when can final variable value be changed, 
+what is classpath in java?
+OOPs concept.
+Abstraction vs Interface
+Final keyword
+OOPs concept.
+Abstraction vs Interface
+Final keyword
+Memory allocation in Java (Stack vs Heap)
+
+DSA
+++++++++++++++++++++++++++++
+ Graph – DFS vs BFS
+Tree – Preoder, PostOrder, Inorder
+Merge sort and quick sort.
+How hash map work internally
+HashSet internal working. 
+How load factor works in HashMap.
+When to go for ArrayList and when for LinkedList.
+How will you break TreeSet property (it should store Objects in non sorted order)
+implement a stack. 
+Question on Graph DFS (not exactly remember the question)
+Tree – Preoder, PostOrder, Inorder
+Graph – DFS vs BFS
+Min flip to make binary string alternate.
+Binary tree, BST, code for deletion in tree.
+Question on Graph DFS (not exactly remember the question)
+HashMap internal implementation.
+I don’t remember the question exactly, but logic of the problem was BFS.
+Then,internal implementation of list and map in C++. I was asked to do implementation of AVL trees as well. They were knowledgeable and had a good understanding of data structures.
+Binary tree, BST, code for deletion in tree. 
+Implement queue using Stacks. First I solved it using two different stacks., Then they asked me to implement the queue using only 1 stack.https://www.geeksforgeeks.org/queue-using-stacks/
+ What is a Binary Search Tree?
+ Write a program to check whether a binary tree is BST or not.
+
+
+EXCEPTION HANDLING
++++++++++++++++++++++++++++++
+. Exception Handling.
+
+DESIGN PATTERNS
++++++++++++++++++++++++++++++++++++++++++++++++++++
+Singleton Design pattern
+
+UNKNOWN 
+++++++++++++++++++++++++++++++++
+What is a segmentation fault?
+ How you make it double ton(in even call of getInstance() first object should be return and odd call of getInstance() second instance should be return). Make it triple don.
+
+Challenges faced in the past developing any applications. How did you handle it and the conclusion?
+Challenges faced in the past developing any applications. How did you handle it and the conclusion?
+A situation when you conflict with your manager and how did you handle it.
+Challenges faced in the past developing any applications. How did you handle it and the conclusion?
+ overflow and underflow conditions, working, applications where they can be used.
+ A situation when you have to change your work lifestyle.
+ A situation when you conflict with your manager and how did you handle it.
+overflow and underflow conditions, working, applications where they can be used.
+
+
+
+SQL
++++++++++++++++++++++++++++
+Some SQL queries normal JOIN queries.
+ Write a query to get the below output. 
+
+PERSONAL QUESTIONS 
++++++++++++++++++++++++++++++++++++
+Why do you want to leave your job?
+Why Goldman Sachs?
+Why not Google? (I said I would be happy to work for Google if they offered me a job)
+Are you fine working in proprietary languages?
+100 gold coins and 5 pirates puzzle.
+What is your notice period?
+
+Current project (Architecture), Which technologies are you working on
+Some puzzles. Explained me about GS how they work in GS and all.
+
+AGILE
+++++++++++++++++++++++++++++++
+
+OS
+++++++++++++++++++++++++++++++++++++++
+Then he came to OS. Critical section problem, testAndSwap() instruction, peterson’s problem its drawback and why software solutions were needed for solving critical section problems.
+
+ Then he came to OS. Critical section problem, testAndSwap() instruction, peterson’s problem its drawback and why software solutions were needed for solving critical section problems.
+
+JAVA 
+++++++++++++++++++++++++
+Java 8 features.
+
+
+TESTING 
+++++++++++++++++++++++++++++++++++
+Some discussion on Software Testing,
+ Some discussion on Software Testing, waterfall and spiral model etc. 
+

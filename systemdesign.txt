@@ -1,0 +1,77 @@
+SYSTEM DESIGN 
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+****************
+Design notification system. Here he mentioned you have the database and records are stored. You need to filter which the records as per the trending topics and deliver notifications. For context filtering, I talked about NLTK, n-grams, tagging, and then prioritizing the records filtered.
+With this the process ended and he started explaining me about the work of the team etc.
+********************
+
+*****************
+ Scenario again, the code in production branch is producing lots of error everytime the code is run. I was asked how machine learning can make this situation better. I firstly contradicted his question by saying, how the code has been committed to production branch when it has errors. Shouldn’t it be in the developer branch and integrated and committed in production later. The interviewer and me were laughing for next 5 mins because of how I contradicted him. He changed errors to warnings then, said, Developers many times ignore them, but can they be of any use? I introduced lot of machine learning here and we had discussion on various models.
+*******************
+
+
+*****************
+ The second problem was again a scenario in which a company C collects data from Company A and B about some 100 customers which always remain fixed. Some records are provided to C by A and B and C has to validate these. How shall they provide the record, how should company C release its application. In what frequency, should validations be carried on the data collected, when should the data be collected. How can you make your system learn about the 100 customers, so that the cost of validation can be reduced. This was a very open-ended question.
+******************
+
+
+*************************
+I was given a scenario related to file system and was asked various question of how it’s different API’s can be designed. How to maintain the whole structure when a file was modified. At any given time, I have to output the files modified within last 5 days. The file system is a big one.
+
+**********************
+
+
+**********************
+ I was then asked to design cache. He gave me various scenarios like how will make the system fault tolerant if one machine goes down. We also discussed about push and pull affinity, he said running stream of records will come and you have some n machines. How will you store these records and then fetch them.
+
+********************
+
+Design Snake and Ladder – you have to identify all the classes and its member variable and methods and relationship among different classes.
+ Design Snake And Ladder Game.
+
+ Design Conference Room Allocation system considering the time and number of rooms available constraints.
+ Design cricbuzz.
+
+************
+Design notification system. Here he mentioned you have the database and records are stored. You need to filter which the records as per the trending topics and deliver notifications. For context filtering, I talked about NLTK, n-grams, tagging, and then prioritizing the records filtered.
+With this the process ended and he started explaining me about the work of the team etc.
+
+**********
+
+
+
+************************
+ I was then asked to design cache. He gave me various scenarios like how will make the system fault tolerant if one machine goes down. We also discussed about push and pull affinity, he said running stream of records will come and you have some n machines. How will you store these records and then fetch them.
+******************************
+
+****************
+I was given a scenario related to file system and was asked various question of how it’s different API’s can be designed. How to maintain the whole structure when a file was modified. At any given time, I have to output the files modified within last 5 days. The file system is a big one.
+******************
+
+
+************************
+
+ The second problem was again a scenario in which a company C collects data from Company A and B about some 100 customers which always remain fixed. Some records are provided to C by A and B and C has to validate these. How shall they provide the record, how should company C release its application. In what frequency, should validations be carried on the data collected, when should the data be collected. How can you make your system learn about the 100 customers, so that the cost of validation can be reduced. This was a very open-ended question.
+
+***************
+
+
+********************************
+ Scenario again, the code in production branch is producing lots of error everytime the code is run. I was asked how machine learning can make this situation better. I firstly contradicted his question by saying, how the code has been committed to production branch when it has errors. Shouldn’t it be in the developer branch and integrated and committed in production later. The interviewer and me were laughing for next 5 mins because of how I contradicted him. He changed errors to warnings then, said, Developers many times ignore them, but can they be of any use? I introduced lot of machine learning here and we had discussion on various models.
+
+*****************
+
+
+Design Conference Room Allocation system considering the time and number of rooms available constraints.
+Design Snake And Ladder Game.
+Algorithms: Given a circular linked list, detect a loop in it.
+*************************
+
+After all these questions he gave me a design problem: Suppose you have to design an election campaign application. He gave a number of questions which for which we should provide some APIs for. The question was like: How many total constituencies are there? Which all candidates are contesting? Which candidate represents which party? How many male/female candidates won and with how many votes?
+
+
+The class which I told him were: State, Constituency, Candidate, Party, Voter.
+Further, I told him that the state will have a list of constituencies. The constituency will have a list of male and female candidates. A party will have list of constituencies (where their candidates are contesting) and also a list of all candidates. A candidate will have reference to the constituency (in case he decides to contest from a different constituency next time) and a reference to the party (same reason as above).
+The discussion happened on this design for some 20 minutes on various grounds.
+**************************

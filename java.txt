@@ -1,0 +1,9 @@
+STRING 
+++++++++++++++++++++++++++++++++++++
+What is the difference between string, string buffer and string builder
+
+JVM
+++++++++++++++++++++++
+Explain JVM architecture.
+How does garbage collector work in Java?
+. JVM internal architecture.

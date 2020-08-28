@@ -1,0 +1,15 @@
+Array & ArrayList
+Exception handling 
+oop
+inheritnace 
+interfaces & polymorpishm 
+String and Regex
+FILE , IO, STREAMS , NIO XML Serialization 
+Generics Collection s
+Lamda & Streams
+Recursion 
+Generics
+Concurrencey 
+Multithreading
+JDBC
+

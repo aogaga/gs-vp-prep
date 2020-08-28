@@ -1,0 +1,139 @@
+
+CODING QUESTIONS
+++++++++++++++++++++++++
+Given a matrix consisting of only zeroes and ones.Cell containing 1 is available for connection and cell with 0 is not. The task is to find how many number of unique connections that can be made with adjacent cells (on all 8 sides).
+
+Given a matrix of integers, task is to find out number of positional elements. A positional element is one which is either minimum or maximum in a row or in a column. If there are multiple minimum or maximum elements in a row or a column, return -1.
+
+
+Encode/Decode the string based on the input. The output should be based on the key. There are following 3 inputs from the user:int (operation o-for encode, 1-for decode)
+string (input string – word which is to be encode/decode)
+string (key to encode/decode e.g. 123)e.g.
+
+Find the first non-repeating character in the integer array. This question is similar to the given in geeksforgeeks : First non-repeating character
+Initially i solved this question using 2 arrays which has the complexity for O(n^2) but he then told me to simplify then i was able to do so in O(2n). After solving this question i was given another question
+
+
+Given an string and a burst length , output the string such that count of same adjacent characters in string are less than burst length.
+
+Given an array of distinct integers, output the number of sub-sequences of length 3, either in increasing or decreasing order.
+
+Find the number of positional elements in the given matrix. Return -1 if there is more than one occurrences of any positional element in the corresponding row or column. (This question is same as given on GeeksForGeeks except the condition given for occurrences of positional element : find-number-of-positional-elements)
+I was able to solve this using same approach
+
+ A robot can only move in four directions , UP(U), DOWN(D),LEFT(L),RIGHT(R). Given a string consisting of instructions to move , output the co-ordinates of robot after the executing the instructions. Initial position of robot is at origin(0,0).
+
+ Given an array of integers and a sum, output the number of pairs  whose addition is equal to the given sum.
+
+ Given a range of numbers [x, y] and an integer q. Multiply all the numbers in the range by q and return the count of all the numbers which have no same digits as the corresponding product obtained.
+
+Given a dictionary of the words(strings) which contains different words & you are given an input string e.g. “abd”. You need to find the largest word available in the supplied dictionary which can be made using the letters of input string. The returned word can contain only the same no of occurrences of the letters as given in the input string i.e. if a letter is given once then in the output it should be existed only once. Examples:
+Dictionary {“to”, “banana”, “toe”, “dogs”, “ababcd”, “elephant”} and input string is “eot”. Output should be “toe”
+Dictionary is same as specified in example a but the input string is “ogtdes” and the output is “dogs” and “toes”
+
+
+ 0/1 Knapsack problem. One more addition being that you had to tell which all items were chosen for the optimal solution.https://www.geeksforgeeks.org/printing-items-01-knapsack/
+
+This is a 1-hour telephonic interview and a screen is shared for writing the full working code. And you need to write some of your test cases and clear the ones they have provided. Two questions were asked in this:
+
+They asked for one more Coderpad round. This time too, two questions were asked.
+1. Find the first non-repeating character in a string.https://www.geeksforgeeks.org/given-a-string-find-its-first-non-repeating-character/
+
+
+Given a string, return the Run Length Encoded string for input string.
+Ex- aaabbcddddde -> a3b2c1d5e1https://www.geeksforgeeks.org/run-length-encoding/
+
+ Given a matrix of positive integers/points. We have to start from lower left corner and reach the upper right corner. Our path should be such that we fetch maximum points. Only two movements are allowed- up and right, i.e. from a cell (R, C), you can either go to (R, C+1) or (R-1, C).
+
+
+Given a range of numbers [x, y] and an integer q. Multiply all the numbers in the range by q and return the count of all the numbers which have no same digits as the corresponding product obtained.
+Ex- If x=10, y=12, q=2. Then the products corresponding to 10, 11, 12 are 20, 22, 24.
+The count will be 1 as only 22 has all different digits than 11.
+
+
+
+Rotate matrix by 90, 180 , 270.
+Root to leaf path in a binary tree.
+A technical ques, given a 2D matrix, I was asked to find an submatrix with maximum sum. Submatrix can be square and rectangular as well.
+
+First technical question was finding first non-repeating character in a string.
+A car has to be given on rent. Different people come and ask for it for interval [s,e] and offer some price p. To whom shall the car be given in order to earn maximum.
+Subarray with 0 sum
+Spiral order traversal of the matrix
+Water Jug Puzzle
+. Given X and Y, wap to output X if the input is Y and Output Y if the input is X. No use of conditional operator is allowed.
+ Fibonacci Series for very large n.
+Find the first non-repeating character in an array.
+Form the largest possible number from the array of number.
+Find the total lattice points on the circumference of a circle.
+They asked me about the work in my current company. Then they shifted to why JAVA over C++. If I am creating any application from scratch, which language should I chose and why.
+Rotate matrix by 90, 180 , 270
+Root to leaf path in a binary tree.
+Spiral order traversal of the matrix Subarray with 0 sum
+
+ A robot can only move in four directions , UP(U), DOWN(D),LEFT(L),RIGHT(R). Given a string consisting of instructions to move , output the co-ordinates of robot after the executing the instructions. Initial position of robot is at origin(0,0).
+Given an array of integers and a sum, output the number of pairs  whose addition is equal to the given sum.
+
+Given an string and a burst length , output the string such that count of same adjacent characters in string are less than burst length.
+Given an array of distinct integers, output the number of sub-sequences of length 3, either in increasing or decreasing order.
+Given an array of 1’s and 0’s. Segregate them.
+Given two sorted arrays with sizes m and n. Merge them into a third array of size m+n.
+A function is given that returns 1 with probability p and returns 0 with probability p-1. Write another function which calls this function and returns 1 and 0 with probability 1/2 each.
+Three ants in corners of triangle puzzle.
+Given an array of numbers, arrange it in such a way that a1 > a2 < a3 > a4 < a5 > a6 <
+Given a linked list, reverse the elements from the beginning in blocks of two. Given: 7 → 4 → 9 → 2 → Null. Output: 4 → 7 → 2 → 9 → Null.
+Given a Rubik’s cube of size n (Made of n^3 smaller cubes). You remove all that is visible from outside. How many cubes are left?
+The 4 people, bridge and one torch puzzle.
+Implement multiple stacks in one array.
+
+SAX parser vs Dom parser. How will you store key value pair in sorted way based on values. Given a doubly circular linked list one node is not pointing to next how will find this and fix this. Same question next pointer is pointing to some random pointer how will you find this and fix this.
+
+Given a situation there are three lifts A,B & C, lift A is at kth floor and user wants to go at nth floor what will be the test cases in this situation. Interviewer gave 3-4 situation in same problem to write test cases.
+
+
+There is method which will take a date i.e. 11/09/2013 and return a expiry date and that is 3rd Friday of input month. Write all unit cases covering all corner case that will a sure that this method will never fail.
+
+
+Then, he asked a question on an array: Given an int array, arrange the elements in increasing decreasing order i.e. one element bigger than a smaller element then bigger and so on.
+After I answered this question, he asked me a simple question that suppose 2 people are starting at some point in the circle, first with speed of 4 and second with speed of 6, In how much time they’ll meet again. (Don’t know the motive behind asking so simple question. :P)
+
+
+Question: Given a remote having 0-9 digits, plus button (to increase channel), minus (to decrease) and previous channel button (to go to the previous channel). We were given 2 numbers stating the start and end channel number and an array having various channel numbers. The task was to go to all channel numbers given in array with a minimum number of clicks.
+
+ Find the first non-repeating character in an array.
+: Form the largest possible number from the array of number.
+
+
+Given n and an array of strings, print the string that contains the digits (1, 2, 3), if there are multiple strings that satisfies the conditions, print them in ascending order.
+
+Given a sequence of M and N with M representing increasing and N representing decreasing, output the smallest number that follows this pattern.
+
+Given a string, the task is to find maximum consecutive repeating character in string
+Given a string, print the reverse order of the string.
+
+*******************************************
+After that, he gave me a puzzle: Suppose you and I are playing a game on a round table and we both have an infinite number of coins. The rules are as follows:
+It is a turn-based game, so you and I take turns alternatively (1 coin per turn)
+We have to place the coin on the table and coins cannot be put on top of each other.
+Coins may not be moved once put on the table.
+if there isn’t any room to put coins on the table, the person who placed the last possible coin wins.
+So if I give you the opportunity to go first, which move you’ll start with to ensure victory?
+After this, some discussion happened on GS and its workings.
+
+******************************************************
+ Given an array of numbers where each number is in continuous series and would not be repeated once the series is over, print the count of each number.
+
+****************************************
+Write a program to count frequency of each number in an array of elements without using a hash table.
+
+I gave O(n) complexity solution, but the interviewer was not satisfied with it and asked me to implement a balanced binary search tree which I couldn’t.
+**********************************************
+
+
+Given a matrix containing only 0’s and 1’s. Each row will have some number of consecutive 0’s followed by some number of consecutive 1’s. We have to find the row containing maximum 0’s and also the number of 0’s in that row. At first, I suggested implementing Binary Search on every row to find the number of zeroes and then comparing the number of zeroes for every row. The interviewers said it is right but they wanted something better. Then I suggested implementing Binary Search on first row, store the index containing last 0 and then moving down in the matrix on that index. If you encounter a 1, then you can safely ignore that row. If you get a 0, then you can implement Binary Search on that row and update your stored values. The interviewers were satisfied with this solution.
+
+
+
+Count no. of ways to reach nth stair from the bottom. Can take 1, 2 or 3 steps at a time.
+https://www.geeksforgeeks.org/count-ways-reach-nth-stair/
+After this, I was called for Face to Face interviews in the Bangalore office. There were 5 rounds of interviews and all were technical. Each round was taken by two interviewers.
